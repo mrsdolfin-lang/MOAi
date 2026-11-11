@@ -1,0 +1,15 @@
+{
+  "name": "MOAi",
+  "short_name": "MOAi",
+  "description": "A clean AI chat app for 50+ providers. Bring your own API keys.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fbfaf8",
+  "theme_color": "#c2410c",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}
