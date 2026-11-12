@@ -1,5 +1,5 @@
-const C = "moai-v1";
-const A = ["./", "index.html", "manifest.webmanifest", "style.css", "app.js", "icon.svg", "maskable.svg"];
+const C = "moai-v2";
+const A = ["./", "index.html", "manifest.webmanifest", "style.css", "app.js", "onboarding.js", "icon.svg", "maskable.svg"];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(C).then((c) => c.addAll(A)).then(() => self.skipWaiting()));
 });
